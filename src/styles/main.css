@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animal {
+    flex-basis: 25%; /* set width of each item relative to screen */
+    display: flex;
+}
+
+img {
+    width: 50px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
